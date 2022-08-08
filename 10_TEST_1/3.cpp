@@ -16,6 +16,6 @@ bool check(int *input , int size , int index , int lsum , int rsum){
     }
     return check(input , size , index+1 , lsum , rsum);
 }
-bool splitArrat(int *input , int size){
+bool splitArray(int *input , int size){
     return check(input , size , 0 , 0 , 0);
 }
